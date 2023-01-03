@@ -389,13 +389,15 @@ main{
   background-color:var(--blue-light);
   position: absolute;
 }
-.projetos div:nth-child(odd) div{
+.projetos >div:nth-child(even) div{
   align-items: flex-end;
   text-align: end;
 }
-.projetos div:nth-child(odd) .tecnologias{
+.projetos >div:nth-child(even) .tecnologias{
   justify-content: flex-end;
+  text-align: end;
 }
+
 .projetos div div {
   display: flex;
   justify-content: flex-start;
