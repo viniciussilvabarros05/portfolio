@@ -42,6 +42,9 @@ p{
   font-weight: 500;
   color: #e7e7e7;
 }
+a p {
+  font-size: 0.8rem;
+}
 header{
   display: flex;
   position: sticky;
@@ -138,6 +141,7 @@ main{
   display: flex;
   flex-direction: row;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 #linkedin:hover{
   background: linear-gradient(45deg, #046AA8, #7bcbfd);
@@ -177,6 +181,31 @@ main{
 #github:hover::before{
   display: none;
 }
+#curriculo svg{
+  color: #DF0000;
+}
+#curriculo::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(45deg, #8b081e, #ee4e4e);
+  z-index: -1;
+  margin: -3px;
+  border-radius: 0.4rem;
+}
+#curriculo:hover{
+  background: linear-gradient(45deg, #8b081e, #ee4e4e);
+  transition: all ease-in-out 0.2s;
+  border: 1px solid transparent;
+}
+
+#curriculo:hover svg{
+  color: white;
+}
+#curriculo:hover::before{
+  display: none;
+}
+
 .gradient-blue{
   width: 1%;
   height: 1px;
@@ -563,5 +592,8 @@ main{
   .card_xp{
     margin-left: 1rem;
     width: 95%;
+  }
+  a p{
+    display: none;  
   }
 }

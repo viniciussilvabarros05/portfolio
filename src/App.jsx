@@ -14,7 +14,9 @@ import {IoLogoFirebase} from 'react-icons/io5'
 import {SiJavascript, SiMongodb,SiNextdotjs,SiTypescript} from 'react-icons/si'
 import {AiFillHtml5} from 'react-icons/ai' 
 import {TbBrandGit} from 'react-icons/tb'
+import {MdPictureAsPdf} from 'react-icons/md'
 import {FiExternalLink} from 'react-icons/fi'
+import pdf from './assets/Curriculo_Vinicius_Barros.pdf'
 function App() {
 
   return (
@@ -40,11 +42,19 @@ function App() {
             <div className="container_buttons">
               <a  target="_blank"  id="linkedin" href='https://www.linkedin.com/in/vinicius-barros-5b616520a/'>
                 <ImLinkedin2 size={24}/>
-                  LinkedIn
+                  <p> 
+                    LinkedIn
+                 </p>
               </a>
               <a  target="_blank" id="github" href='https://github.com/viniciussilvabarros05'>
                 <RxGithubLogo size={24}/>
-                  LinkedIn
+                  <p>Github</p>
+              </a>
+              <a  target="_blank" id="curriculo"  href={pdf} download>
+                <MdPictureAsPdf size={24}/>
+                  <p>
+                    Curriculo
+                  </p>
               </a>
             </div>
            
@@ -269,10 +279,30 @@ function App() {
                 Primeiro jogo web criado apenas com Javascript e Css logo no início dos meus estudos em programação. Aproveite para dar uma jogadinha também. 
               </p>
               <div className="tecnologias">
-                <SiJavascript size={30} color="#EFD81D"/>
+                <AiFillHtml5 size={30} color="#E96228"/>
                 <FaCss3Alt size={30} color="#0068BA"/>
+                <SiJavascript size={30} color="#EFD81D"/>
               </div>
             </div>
+          </div>
+          <div>
+            <div>
+              <h3>
+                Landing Page
+                <a href='https://project-landing-page-seven.vercel.app/' target="_blank">
+                  <FiExternalLink/>
+                </a>
+              </h3>
+              <p>
+                Primeira landing page criada apenas com Javascript e Css. Uma simples aplicação, mas que vende muito bem para negócios locais. 
+              </p>
+              <div className="tecnologias">
+                <AiFillHtml5 size={30} color="#E96228"/>
+                <FaCss3Alt size={30} color="#0068BA"/>
+                <SiJavascript size={30} color="#EFD81D"/>
+              </div>
+            </div>
+           <img src={"https://user-images.githubusercontent.com/58434465/128177763-21db54f6-61b0-43fe-a419-859be1ea013c.gif"}/>
           </div>
         </section>
         <section id ="experiencia" className='experiencia'>
