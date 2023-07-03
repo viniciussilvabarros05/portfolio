@@ -5,6 +5,7 @@ import sobre from './assets/sobre.svg'
 import perfil from './assets/image_rgb_ptf.png'
 import deixa_de_coisa from './assets/deixa_de_coisa.gif' 
 import nefinance from './assets/nefinance.gif' 
+import ImunizaKids from './assets/ImunizaKids.gif' 
 import jogo_da_memoria from './assets/jogo_da_memoria.gif' 
 import {ImLinkedin2} from 'react-icons/im'
 import {RxGithubLogo} from 'react-icons/rx'
@@ -38,7 +39,7 @@ function App() {
           <div>
             <h4>Vinícius Silva Barros</h4>
             <h1>DESENVOLVEDOR FRONTEND</h1>
-            <p>Trabalho profissionalmente há 1 ano como desenvolvedor front-end, estudante de engenharia e artística nas horas vagas</p>
+            <p>Trabalho profissionalmente há 1 ano como desenvolvedor front-end, estudante de engenharia e artista nas horas vagas</p>
             <div className="container_buttons">
               <a  target="_blank"  id="linkedin" href='https://www.linkedin.com/in/vinicius-barros-5b616520a/'>
                 <ImLinkedin2 size={24}/>
@@ -111,7 +112,7 @@ function App() {
             </div>
 
             <div>
-              <FaReact size={50} color="#5ED3F3"/>
+              <FaReact size={50} color="#876df8"/>
               React Native
             </div>
             <div>
@@ -217,13 +218,13 @@ function App() {
                 Este sendo meu primeiro app em react native em que realmente pude utlizar no meu dia a dia e fez sentido pra outras pessoas. Ele não está disponível para teste, então deixei o gif mostrando as funcionalidades.
               </p>
               <div className="tecnologias">
-                <FaReact size={30} color="#5ED3F3"/>
+                <FaReact size={30} color="#876df8"/>
                 <IoLogoFirebase size={30} color="#F58410"/>
                 <FaCss3Alt size={30} color="#0068BA"/>
                 <SiTypescript size={30} color="#2F74C0"/>
               </div>
             </div>
-              <img src={nefinance} style={{width:"15%", marginRight:"10%"}}/>
+              <img src={nefinance} style={{width:"20%", marginRight:"10%"}}/>
           </div>
           <div>
             <img src="https://user-images.githubusercontent.com/58434465/132912454-0977a5bb-61aa-4e61-b4b2-584bfea8bba5.gif"/>
@@ -249,21 +250,22 @@ function App() {
           <div>
             <div>
               <h3>
-                Food&MEMES
-                <a href='https://foodmemes-e702c.web.app/' target="_blank">
-                  <FiExternalLink/>
-                </a>
+                ImunizaKids
               </h3>
               <p>
-                Este projeto foi minha primeira tentiva de fazer um sistema de delivery básico, com um pouco de humor. Todos o backend foi feito com firebase para armazernar as imagens e pedidos dos clientes.
+                Este projeto foi o segundo freela que fiz. Ele se trata de uma caderneta digital de vacinas, que te auxilía a tomar suas vacinas no momento certo ou de seus filhos.
+              </p>
+              <p>
+              Possui informações importantes das vacinas, bem como o controle sobre quais doses você já tomou. Além disso, pode também encontrar os pontos de vacina mais próximos de você, como postos de saúde, hospitais e centros de apoio.
               </p>
               <div className="tecnologias">
-                <FaReact size={30} color="#3D8AA0"/>
+                <FaReact size={30} color="#876df8"/>
                 <IoLogoFirebase size={30} color="#F58410"/>
-                <FaSass size={30} color="#C76494"/>
+                <FaCss3Alt size={30} color="#0068BA"/>
+                <SiTypescript size={30} color="#2F74C0"/>
               </div>
             </div>
-            <img src="https://user-images.githubusercontent.com/58434465/138560867-3af369fb-f275-4da5-8c03-01f436d67f81.gif"/>
+            <img src={ImunizaKids} style={{width:"20%", marginRight:"10%"}}/>
           </div>
           
           <div>
