@@ -39,7 +39,7 @@ function App() {
           <div>
             <h4>Vinícius Silva Barros</h4>
             <h1>DESENVOLVEDOR FRONTEND</h1>
-            <p>Trabalho profissionalmente há 1 ano como desenvolvedor front-end, estudante de engenharia e artista nas horas vagas</p>
+            <p>Trabalho profissionalmente há 3 anos como desenvolvedor front-end, estudante de engenharia e artista nas horas vagas</p>
             <div className="container_buttons">
               <a  target="_blank"  id="linkedin" href='https://www.linkedin.com/in/vinicius-barros-5b616520a/'>
                 <ImLinkedin2 size={24}/>
@@ -311,7 +311,7 @@ function App() {
             <h2>Experiência</h2>
             <div>
               <div className='card_xp'>
-                <h4>Catwalk - 2022/01 - Atual</h4>
+                <h4>Catwalk - 2022/01 - 2023/02</h4>
                 <h5>Desenvolvedor Fullstack Jr - Remoto</h5>
                 <div className="tecnologias">
                   <FaReact size={25} color="#3D8AA0"/>
