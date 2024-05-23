@@ -4,9 +4,11 @@ import logo from './assets/logo-portfolio.png'
 import sobre from './assets/sobre.svg'
 import perfil from './assets/image_rgb_ptf.png'
 import deixa_de_coisa from './assets/deixa_de_coisa.gif' 
+import mediaboard from './assets/mediaboard.gif' 
 import nefinance from './assets/nefinance.gif' 
 import ImunizaKids from './assets/ImunizaKids.gif' 
 import jogo_da_memoria from './assets/jogo_da_memoria.gif' 
+import { SiTailwindcss } from "react-icons/si";
 import {ImLinkedin2} from 'react-icons/im'
 import {RxGithubLogo} from 'react-icons/rx'
 import {FaReact,FaSass,FaCss3Alt,FaNode} from 'react-icons/fa'
@@ -180,6 +182,25 @@ function App() {
             <span  style={{animation: "bolhas 15.8s linear infinite"}}></span>
           </div>
           <h2>Meus Projetos</h2>
+          <div>
+            
+            <div>
+              <h3>
+               MediaBoard 
+              </h3>
+              <p>
+               Este foi mais um freela feito para um grupo de mídia de uma igreja. Ele é usado para receber pedidos, através de um formulário que recebe imagens, datas e informações do evento. O pedido é recebido e gerenciado no painel.
+               O painel serve para atribuir à equipe as tarefas com base nos pedidos recebidos, bem como organizar prazos de entregas.
+              </p>
+              <div className="tecnologias">
+                <FaReact size={30} color="#3D8AA0"/>
+                <SiTailwindcss size={30} color="#48a6c0"/>
+                <IoLogoFirebase size={30} color="#F58410"/>
+                <SiNextdotjs size={30} color="#ffffff"/>
+              </div>
+            </div>
+            <img src={mediaboard}/>
+          </div>
           <div>
             <img src={deixa_de_coisa}/>
             <div>

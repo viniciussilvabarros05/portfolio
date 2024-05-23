@@ -397,6 +397,7 @@ main{
   justify-content: space-between;
   flex-direction: row;
   padding: 2rem;
+  gap:2rem;
   border-radius: 0.3rem;
   border: 1px solid var(--blue-light);
   position: relative;
@@ -441,7 +442,7 @@ main{
 .projetos h3{
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: auto;
   padding-bottom: 0.5rem;
   border-bottom: 2px  var(--blue-light) solid;
 }
@@ -450,8 +451,8 @@ main{
   cursor: pointer;
 }
 .projetos img{
-  width: 40%;
-  height: 30%;
+  width: 50%;
+  height: 40%;
 }
 .projetos .tecnologias{
   display: flex;
